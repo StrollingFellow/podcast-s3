@@ -1,0 +1,22 @@
+{
+  "name": "podcast-s3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.610.0",
+    "linq-to-typescript": "^6.0.1",
+    "rss-parser": "^3.7.3",
+    "s3-transload": "^1.0.0"
+  }
+}
